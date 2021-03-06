@@ -1,0 +1,244 @@
+/******TO SET ALL ELEMENTS TO A DEAFAULT OF 0
+    margin: 0; padding: 0; 
+}
+********/ 
+
+/***** TO MAKE THE SITE STATIC  *****/
+
+.container {
+    margin: auto;
+    width: 1200px;
+}
+
+
+/***** ELEMENTS THAT AFFECT THE ENTIRE SITE *****/
+
+body {
+    font-family: 'Raleway', sans-serif;
+    color: #2c3354;
+    font-size: 18px;
+}
+
+/***** NAV SECTION *****/
+
+nav {
+    text-transform: uppercase;
+}
+
+nav ul li {
+    display: inline;
+    font-weight: 600;
+    font-size: 20px;
+    padding-right: 25px;
+}
+
+nav ul {
+    padding-top: 15px;
+    padding-left: 850px;
+}
+
+a {
+    text-decoration: none;
+    color: #2c3354;
+    
+}
+
+
+/***** HERO IMAGE SECTION *****/
+
+.hero-image {
+    height: 800px;
+    width: 1200px;
+    margin: auto;
+}
+
+h1 {
+    text-shadow: 2px 2px #d3789b;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fdfbeb;
+    font-size: 25px;
+    text-shadow: 2px 2px black;
+    text-align: center;
+    background-color: #091133;
+    padding-bottom: 20px;
+}
+
+/***** PROJECT SECTION *****/
+
+h2 {
+    text-align: center;
+    font-size: 30px;
+}
+
+.full-width {
+    width: 1200px;
+    overflow: auto;
+}
+
+.half-width-text {
+    width: 550px;
+    float: left;
+    overflow: auto;
+}
+
+
+.half-width-logo {
+    width: 600px;
+    float: left;
+    clear: both;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+#first-project-maptime {
+    background-color: #fdfbeb;
+}
+
+#second-project-missing {
+    background-color: #fdfbeb;
+}
+
+#third-project-desire {
+    background-color: #fdfbeb;
+
+}
+
+#maptime {
+    height: 300px;
+    width: 300px;
+    padding-left: 150px;
+}
+
+.half-width-text-maptime {
+    padding-top: 80px;
+    padding-right: 50px;
+}
+
+#missing-maps {
+    height: 211.86px;
+    width: 500px;
+    padding-left: 50px;
+}
+
+
+.half-width-text-missing {
+    padding-top: 25px;
+    padding-right: 50px;
+}
+
+#desire-path {
+    height: 347.22px;
+    width: 500px;
+    padding-left: 55px;
+}
+
+.half-width-text-desire {
+    padding-top: 100px;
+    padding-right: 50px;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+/***** ABOUT ME SECTION *****/
+
+
+.full-width {
+    width: 1200px;
+    overflow: auto;
+    background-color: #2c3354;
+}
+
+.half-width {
+    width: 400px;
+}
+
+.aboutme-text {
+    color: #fdfbeb;
+}
+
+.picture-me {
+    height: 300px;
+    width: 300px;
+    float: left;
+    padding-left: 100px;
+    padding-bottom: 35px;
+}
+
+.photo {
+   width: 400px;
+   padding-left: 0px;
+}
+
+.abouttext {
+    width: 550px;
+    float: left;
+    padding-left: 200px;
+    padding-top: 20px;
+    color: #fdfbeb;
+}
+
+
+
+/***** CONTACT SECTION *****/
+
+
+.full-width-contact { 
+    background-color: #091133;
+}
+
+h4 {
+    font-size: 30px;
+    text-align: center;
+    padding-top: 30px;
+    color: #fdfbeb;
+    margin: auto;
+}
+
+h5 {
+    font-size: 20px;
+    text-align: center;
+    color: #fdfbeb;
+    padding-left: 2px;
+}
+
+.third-width {
+    width: 379px;
+    float: left;
+    padding-left: 10px;
+    padding-bottom: 70px
+}
+
+.contact-text {
+    text-align: center;
+    color: #fdfbeb;
+    padding-right: 45px;
+    padding-left: 45px;
+}
+
+.contact-email {
+    text-align: center;
+    color: #fdfbeb;
+    padding-left: 25px;
+}
+
+#icon-git {
+    padding-left: 130px;
+}
+
+#icon-linked {
+    padding-left: 20px;
+}
+
+.footer-text {
+    text-align: center;
+    padding-bottom: 20px;
+    color: #fdfbeb;
+}
